@@ -10,10 +10,16 @@ Data Source 1: Bureau of Economic Analysis, Table 1. Percent Change in Real Gros
 Data Source 2: Bureau of Economic Analysis, Table 1. Personal Income, by State and Region, 2017:Q4-2019:Q1:  https://www.bea.gov/news/2019/state-personal-income-first-quarter-2019 XLSX file converted to CSV file: spi0619.csv
 
 TRANSFORM:
+
 Imported Personal Income, by State and Region as well as Percent Change in Real Gross Domestic Product (GDP) by State and Region
+
 Selected certain columns
+
 Renamed certain columns to make the data easier to read and to make indexing easer
+
+
 Dropped rows with NaN values
+
 Query to join tables
 
 LOAD:
