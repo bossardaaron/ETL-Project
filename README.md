@@ -1,9 +1,9 @@
-ETL Project, United States GDP and Personal Spending Data by State
+ETL Project, United States GDP and Personal Income Data by State
 Team 10: Aaron Bossard & Jin Lee
 
 OVERVIEW:
 
-We were interested in comparing gross domestic product data and personal savings data by state in the United States for 2018. 
+We were interested in comparing gross domestic product data and personal inceome data by state in the United States for 2018. 
 
 EXTRACT:
 
@@ -19,10 +19,10 @@ Selected certain columns
 
 Renamed certain columns to make the data easier to read and to make indexing easer
 
-
 Dropped rows with NaN values
 
 Query to join tables
 
 LOAD:
+
 Created SQL database using Postgres and TablePlus
